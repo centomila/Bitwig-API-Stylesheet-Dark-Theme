@@ -22,7 +22,7 @@ Example path:
 ## Screenshot
 
 ### Before:
-![Before](image.png)
+![Before](before.png)
 
 ### After:
 ![After](after.png)
