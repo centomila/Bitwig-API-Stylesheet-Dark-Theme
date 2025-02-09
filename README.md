@@ -10,21 +10,28 @@ A custom dark theme stylesheet for the Bitwig Studio Controller API documentatio
 
 ## Installation
 
-1. Make a backup of your original stylesheet file
-2. Replace the following file:
+## Installation Steps
 
-`YOURBITWIGFOLDER\resources\doc\control-surface\api\**stylesheet.css**`
+1. Navigate to your Bitwig installation folder:
+    ```Path
+    YOURBITWIGFOLDER\resources\doc\control-surface\api\
+    ```
+    
+    Example path for Windows with _Bitwig Studio 5.3 Beta 8_:
 
-Example path:
+    ```Path
+    c:\Program Files\Bitwig Studio 5.3 Beta 8\resources\doc\control-surface\api\
+    ```
 
-`c:\Program Files\Bitwig Studio 5.3 Beta 8\resources\doc\control-surface\api\**stylesheet.css**`
+2. **Important:** Create a backup of the original `stylesheet.css` file
+    > This ensures you can restore the default theme if needed
 
-## Screenshot
-
-### Before:
-![Before](before.png)
-
-### After:
-![After](after.png)
+3. Download the dark theme:
+    - Go to [stylesheet.css](https://github.com/centomila/Bitwig-API-Stylesheet-Dark-Theme/blob/main/stylesheet.css)
+    - Replace the original `stylesheet.css` with the downloaded file
 
 
+
+## Screenshot Before -> After
+
+![Before and After](Before%20And%20After.png)
