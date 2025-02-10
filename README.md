@@ -20,16 +20,25 @@ Thanks to [@carlca](https://github.com/carlca) for his contributions and feedbac
 
 ## Installation Steps
 
-1. Navigate to your Bitwig installation folder:
-    ```Path
-    YOURBITWIGFOLDER\resources\doc\control-surface\api\
-    ```
-    
-    Example path for Windows with _Bitwig Studio 5.3 Beta 8_:
+1. Navigate to your Bitwig installation folder based on your operating system:
 
-    ```Path
-    c:\Program Files\Bitwig Studio 5.3 Beta 8\resources\doc\control-surface\api\
-    ```
+   ### Windows
+   ```powershell
+   %ProgramFiles%\Bitwig Studio x.x\resources\doc\control-surface\api\
+   ```
+   > Replace `x.x` with your Bitwig version (e.g., 5.3 Beta 8)
+
+   Example:
+   ```powershell
+   C:\Program Files\Bitwig Studio 5.3 Beta 8\resources\doc\control-surface\api\
+   ```
+
+   ### macOS
+   ```bash
+   /Applications/Bitwig Studio.app/Contents/Resources/Documentation/control-surface/api/
+   ```
+   > Right-click on Bitwig Studio.app → Show Package Contents, then navigate to:
+   > Contents → Resources → Documentation → control-surface → api
 
 2. **Important:** Create a backup of the original `stylesheet.css` file
     > This ensures you can restore the default theme if needed
@@ -37,8 +46,6 @@ Thanks to [@carlca](https://github.com/carlca) for his contributions and feedbac
 3. Download the dark theme:
     - Go to [stylesheet.css](https://github.com/centomila/Bitwig-API-Stylesheet-Dark-Theme/blob/main/stylesheet.css)
     - Replace the original `stylesheet.css` with the downloaded file
-
-
 
 ## Screenshot Before -> After
 
