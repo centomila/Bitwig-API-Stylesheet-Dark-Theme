@@ -2,7 +2,7 @@
  * Javadoc style sheet*
  */
 
-/*! Bitwig API Dark Theme v1.0.0 | (c) 2025 Centomila | MIT License */
+/*! Bitwig API Dark Theme v1.0.1 | (c) 2025 Centomila | MIT License */
 
 @import url('resources/fonts/dejavu.css');
 
@@ -13,14 +13,16 @@
 :root {
     /* Keep existing font settings */
     --body-font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
-    --block-font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    /* --block-font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif; */
+    --block-font-family: 'DejaVu Sans', "Gill Sans", Arial, sans-serif;
     --code-font-family: 'DejaVu Sans Mono', monospace;
     --body-font-size: 1rem;
     --code-font-size: 1rem;
-    
+
     /* Text colors */
     --body-text-color: #f8f9fa;
-    --block-text-color: #e9ecef;
+    /* --block-text-color: #e9ecef; */
+    --block-text-color: #b0b0b0;
     
     /* Background colors */
     --body-background-color: #1e2124;

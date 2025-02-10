@@ -8,6 +8,14 @@ A custom dark theme stylesheet for the Bitwig Studio Controller API documentatio
 - Color palette inspired by Bitwig Studio's interface
 - Improved typography and spacing for better readability
 
+## Changelog
+
+**Version 1.0.1**
+- Replaced serif fonts to sans-serif.
+- Updated code block text color from #e9ecef to #b0b0b0
+
+Thanks to [@carlca](https://github.com/carlca) for his contributions and feedback!
+
 ## Installation
 
 ## Installation Steps
