@@ -24,13 +24,7 @@ Thanks to [@carlca](https://github.com/carlca) for his contributions and feedbac
 
    ### Windows
    ```powershell
-   %ProgramFiles%\Bitwig Studio x.x\resources\doc\control-surface\api\
-   ```
-   > Replace `x.x` with your Bitwig version (e.g., 5.3 Beta 8)
-
-   Example:
-   ```powershell
-   C:\Program Files\Bitwig Studio 5.3 Beta 8\resources\doc\control-surface\api\
+   %ProgramFiles%\Bitwig Studio\resources\doc\control-surface\api\
    ```
 
    ### macOS
